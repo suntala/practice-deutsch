@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/suntala/practice-deutsch/issues"
   },
-  "homepage": "https://github.com/suntala/practice-deutsch#readme"
+  "homepage": "https://github.com/suntala/practice-deutsch#readme",
+  "dependencies": {
+    "ava": "^0.24.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.0.0-rc2",
+    "mongoose-sequence": "^4.0.1"
+  }
 }
