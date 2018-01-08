@@ -1,5 +1,5 @@
 const fs = require('fs')
-const LandlordModel = require('../models/landlord-model')   //change to whatever model name you have
+const LandlordModel = require('../models/landlord-model')   //change to whatever model name you have (2)
 
 const add = async (landlord) => {
     return LandlordModel.create(landlord)

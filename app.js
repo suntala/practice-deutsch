@@ -1,10 +1,10 @@
 const express = require('express')
-const bodyParse = require('body-parser')
+const bodyParser = require('body-parser')
 require(`./database-connection`)
 
 const app = express()
 
-app.use(bodyParse.urlencoded({extended: true}));
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json())
 app.set('view engine', 'pug')
 
